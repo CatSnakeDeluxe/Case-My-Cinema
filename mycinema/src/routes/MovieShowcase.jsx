@@ -1,8 +1,8 @@
 import {useEffect, useState} from 'react';
-import Movie from '../components/Movie/Movie'
+import Movie from '../components/Movie/Movie';
 
 const MovieShowcase = () => {
-    
+
     const [movieList, setMovieList] = useState([]);
 
     useEffect(() => {

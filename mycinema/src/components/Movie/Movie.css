@@ -9,21 +9,33 @@
     height: 340px;
     display: inline-block;
     padding: 1rem;
+    z-index: 1;
+}
+.movie::after {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 150px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.064), rgba(255, 255, 255, 0));
+    position: relative;
+    top: -140px;
+    z-index: -1;
 }
 
 img {
   width: 140px;
   object-fit: contain;
-  border-radius: 1rem;
+  border-radius: 1rem 1rem 0 0;
 }
 
 h2 {
+    color: rgb(213, 186, 250);
     font-size: 1.3rem;
     margin-bottom: 0.2rem;
 }
 
 h4 {
-    color: rgba(0, 0, 0, 0.192);
+    color: rgba(255, 255, 255, 0.39);
     font-size: 1rem;
     padding: 0.1rem;
 }
