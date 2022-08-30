@@ -1,11 +1,12 @@
 import {useEffect, useState} from 'react';
+import { Outlet } from "react-router-dom";
 import Movie from "./components/Movie/Movie"
+import Nav from "./components/Nav/Nav"
 import './App.css';
 
 function App() {
   const [movieList, setMovieList] = useState([]);
 
-  
 
   useEffect(() => {
     
@@ -16,9 +17,12 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        {movieList.map(movie => <Movie title={movie.title} genre={movie.genre} image={movie.image}/>)}
-      </div>  
+        <Nav />
+        <h1>Movies</h1>
+        <div>
+          {movieList.map(movie => <Movie title={movie.title} genre={movie.genre} image={movie.image}/>)}
+        </div>
+        <Outlet />
     </div>
   );
 }

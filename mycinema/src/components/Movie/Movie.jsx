@@ -5,7 +5,7 @@ const Movie = (props) => {
         <div className="movie">
             <img src={props.image} alt="" />
             <h2>{props.title}</h2>
-            <h4>{props.genre}</h4>  
+            {props.genre.map(genre => <h4>{genre}</h4>)}
         </div>
      )
 }

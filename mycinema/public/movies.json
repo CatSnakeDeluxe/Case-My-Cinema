@@ -1,9 +1,9 @@
 [    
-    {"title":"Samaritan", "genre":"Action, Drama, Fantasy", "runtime":"1h 42m", "image":"/img/Samaritan.jpg", "playtimes":["17:00", "19:30", "21:45"]},
-    {"title":"Turning Red", "genre":"Animation, Adventure, Comedy", "runtime":"1h 40m", "image":"/img/TurningRed.jpeg", "playtimes":["17:00", "19:30", "21:45"]},
-    {"title":"Memory", "genre":"Action, Crime, Thriller", "runtime":"1h 54m", "image":"/img/Memory.jpg", "playtimes":["17:00", "19:30", "21:45"]},
-    {"title":"No Exit", "genre":"Drama, Mystery, Thriller", "runtime":"1h 35m", "image":"/img/NoExit.jpg", "playtimes":["17:00", "19:30", "21:45"]},
-    {"title":"The Northman", "genre":"Action, Adventure, Drama", "runtime":"2h 17m", "image":"/img/TheNorthman.jpg", "playtimes":["17:00", "19:30", "21:45"]},
-    {"title":"The Adam Project", "genre":"Action, Adventure, Comedy", "runtime":"1h 46m", "image":"/img/TheAdamProject.jpg", "playtimes":["17:00", "19:30", "21:45"]}
+    {"title":"Samaritan", "genre":["Action", "Drama", "Fantasy"], "runtime":"1h 42m", "image":"/img/Samaritan.jpg", "playtimes":["17:00", "19:30", "21:45"]},
+    {"title":"Turning Red", "genre":["Animation", "Adventure", "Comedy"], "runtime":"1h 40m", "image":"/img/TurningRed.jpeg", "playtimes":["17:00", "19:30", "21:45"]},
+    {"title":"Memory", "genre":["Action", "Crime", "Thriller"], "runtime":"1h 54m", "image":"/img/Memory.jpg", "playtimes":["17:00", "19:30", "21:45"]},
+    {"title":"No Exit", "genre":["Drama", "Mystery", "Thriller"], "runtime":"1h 35m", "image":"/img/NoExit.jpg", "playtimes":["17:00", "19:30", "21:45"]},
+    {"title":"The Northman", "genre":["Action", "Adventure", "Drama"], "runtime":"2h 17m", "image":"/img/TheNorthman.jpg", "playtimes":["17:00", "19:30", "21:45"]},
+    {"title":"The Adam Project", "genre":["Action", "Adventure", "Comedy"], "runtime":"1h 46m", "image":"/img/TheAdamProject.jpg", "playtimes":["17:00", "19:30", "21:45"]}
 ]
 
