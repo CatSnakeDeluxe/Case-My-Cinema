@@ -10,7 +10,7 @@ const MovieShowcase = () => {
     const [movieList, setMovieList] = useState()
 
     async function fetchMoviesJSON() {
-    const response = await fetch('http://localhost:3000/MovieDatabase');
+    const response = await fetch('http://localhost:3005/MovieDatabase');
     const movies = await response.json();
     setMovieList(movies);
   }

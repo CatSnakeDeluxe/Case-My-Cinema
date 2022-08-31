@@ -4,8 +4,9 @@ nav {
 }
 
 nav a {
-    color: rgb(213, 186, 250);
+    color: rgba(213, 186, 250, 0.7);
     text-decoration: none;
     font-size: 1.2rem;
+    font-weight: 600;
     margin: 1rem;
 }

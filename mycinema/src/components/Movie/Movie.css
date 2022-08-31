@@ -31,11 +31,14 @@ img {
 h2 {
     color: rgb(213, 186, 250);
     font-size: 1.3rem;
+    padding: 0.2rem;
     margin-bottom: 0.2rem;
+    font-weight: 600;
 }
 
 h4 {
     color: rgba(255, 255, 255, 0.39);
     font-size: 1rem;
     padding: 0.1rem;
+    font-weight: 300;
 }
