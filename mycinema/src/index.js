@@ -11,7 +11,10 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
           <Route path="About" element={<About />} />
-          <Route path="Movies" element={<MovieShowcase />} />
+          {/* <Route path="Movies" element={<MovieShowcase />} /> */}
+          <Route path="Movies" element={<MovieShowcase />}>
+          {/* <Route path=":MovieId" element={<SelectedMovie />} /> */}
+          </Route>
         </Route>
     </Routes>
 </BrowserRouter>
