@@ -1,30 +1,101 @@
-
-.movieInfoCard {
-    width: 390px;
-    height: 400px;
-    padding: 1rem;
-    z-index: 1;
+.movieHeader {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 1.4rem;
 }
-.movieInfoCard::after {
-    content: "";
-    display: block;
+
+.movieHeader img{
     width: 200px;
-    height: 295px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.064), rgba(255, 255, 255, 0));
-    position: relative;
-    top: -400px;
-    left: 130px;
-    z-index: -1;
+    max-height: 290px;
+    object-fit: contain;
+    border-radius: 1rem;
 }
 
-.movieInfoCard img {
-  width: 200px;
-  object-fit: contain;
-  border-radius: 1rem 1rem 0 0;
+.title {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    margin-top: 0.6rem;
 }
 
-.movieInfoCardDetails {
-    position: relative;
-    top: -280px;
-    left: 220px;
+.runtime {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+    color: rgb(213, 186, 250);
+}
+
+.genre {
+    font-size: 1.3rem;
+    padding: 0.3rem;
+}
+
+.movieHeaderText {
+    width: 150px;
+    margin-left: 0.8rem;
+}
+
+.plot {
+    color: rgba(255, 255, 255, 0.6);
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.rating {
+    color: rgba(255, 255, 255, 0.598);
+    width: 70%;
+    margin: auto;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.dates  {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: rgb(213, 186, 250);
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.times {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: rgb(213, 186, 250);
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.pill {
+    background-color: rgba(0, 0, 0, 0.502);
+    border-radius: 1rem;
+    padding: 0.4rem 1.2rem;
+}
+
+.bookButton {
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: rgb(113, 71, 172);
+    color: rgba(213, 186, 250, 0.7);
+}
+
+h3 {
+    color: rgb(213, 186, 250);
+    font-weight: 400;
 }
