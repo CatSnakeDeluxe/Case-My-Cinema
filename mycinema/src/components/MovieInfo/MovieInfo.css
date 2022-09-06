@@ -1,0 +1,30 @@
+
+.movieInfoCard {
+    width: 390px;
+    height: 400px;
+    padding: 1rem;
+    z-index: 1;
+}
+.movieInfoCard::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 295px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.064), rgba(255, 255, 255, 0));
+    position: relative;
+    top: -400px;
+    left: 130px;
+    z-index: -1;
+}
+
+.movieInfoCard img {
+  width: 200px;
+  object-fit: contain;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.movieInfoCardDetails {
+    position: relative;
+    top: -280px;
+    left: 220px;
+}
