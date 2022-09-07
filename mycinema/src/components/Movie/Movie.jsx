@@ -6,7 +6,7 @@ const Movie = (props) => {
         <div onClick={props.onClick} className="movie">
             <img src={props.image} alt="" />
             <h2>{props.title}</h2>
-            {props.genre.map(genre => <h4>{genre}</h4>)}
+            {props.genre.map(genre => <h4 key={genre}>{genre}</h4>)}
         </div>
      )
 }

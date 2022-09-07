@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 390px;
+    margin: auto;
+}
+
 .movieHeader {
     display: flex;
     text-align: center;
@@ -32,26 +43,16 @@
 
 .movieHeaderText {
     width: 150px;
-    margin-left: 0.8rem;
-    /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.064), rgba(255, 255, 255, 0));
-    position: relative; */
-}
-
-.movieHeaderText::after {
-    content: "";
-    display: block;
-    width: 200px;
     height: 290px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.064), rgba(255, 255, 255, 0));
-    position: absolute;
-    top: 78px;
-    left: 160px;
-    z-index: -1;
+    padding-left: 0.8rem;
+    margin-left: -2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.258), rgba(255, 255, 255, 0.064), rgba(255, 255, 255, 0));
+
 }
 
 .plot {
     color: rgba(255, 255, 255, 0.6);
-    width: 90%;
+    width: 80%;
     margin: auto;
     text-align: left;
     margin-bottom: 1.5rem;
@@ -113,4 +114,42 @@ h3 {
     color: rgb(213, 186, 250);
     font-weight: 300;
     font-size: 1.5rem;
+}
+
+form {
+    color: rgba(255, 255, 255, 0.368);
+}
+
+form h3 {
+    margin: 1rem;
+}
+
+.submitButton {
+    background-color: aquamarine;
+    border: none;
+    background-color: rgb(113, 71, 172);
+    padding: 0.8rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    color: rgba(213, 186, 250, 0.607);
+    margin-top: 1.5rem;
+}
+
+input[type=radio] {
+    accent-color: rgb(113, 71, 172);
+    margin-right: 0.2rem;
+    margin-left: 1rem;
+    width: 40px;
+}
+
+.formDateBox {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.formTimeBox {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }

@@ -1,9 +1,10 @@
 import './LandingPage.css';
-import LandingImage from '../img/projector2.jpg'
 
 const LandingPage = () => {
     return ( 
-        <img className='LandingImage' src={LandingImage} alt="" />
+        <div>
+            <h1>Welcome to our amazing app</h1>
+        </div>
      );
 }
  

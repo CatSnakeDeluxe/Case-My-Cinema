@@ -7,7 +7,7 @@ const MovieShowcase = (props) => {
 
   const handleClick = (movie) => {
     props.setSelectedMovie(movie);
-    console.log("clicked on", movie.title);
+    // console.log("clicked on", movie.title);
     navigate(`/movies/${movie.id}`);
   }
 

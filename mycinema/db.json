@@ -5,8 +5,11 @@
       "title":"Samaritan", 
       "genre":["Action", "Drama", "Fantasy"], 
       "runtime":"1h 42m", 
-      "image":"https://m.media-amazon.com/images/M/MV5BY2M2MjMxNjUtZWU2MS00NTIwLWE0ZDEtOTY3NzY5NGZmY2RmXkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_.jpg", "playtimes":["17:00", "19:30", "21:45"], 
-      "dates":["2022-09-23", "2022-09-24"], 
+      "image":"https://m.media-amazon.com/images/M/MV5BY2M2MjMxNjUtZWU2MS00NTIwLWE0ZDEtOTY3NzY5NGZmY2RmXkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_.jpg", 
+      "shows":[
+        {"date":"23/9", "name":{"times":[{"time":"18:00", "seats":[0,0,0]}, {"time":"20:00", "seats":[0,0,0]}, {"time":"22:00", "seats":[0,0,0]}]}},
+        {"date":"24/9", "name":{"times":[{"time":"19:00", "seats":[0,0,0]}, {"time":"21:00", "seats":[0,0,0]}, {"time":"23:00", "seats":[0,0,0]}]}}
+      ],
       "plot": "A young boy learns that a superhero who was thought to have gone missing after an epic battle twenty years ago may in fact still be around.",
       "rating": "5.8/10"},
 
@@ -15,8 +18,10 @@
       "genre":["Action", "Crime", "Drama"],
       "runtime":"1h 46m", 
       "image":"https://upload.wikimedia.org/wikipedia/en/5/58/Spiderhead.jpg", 
-      "playtimes":["17:00", "19:30", "21:45"], 
-      "dates":["2022-09-23", "2022-09-24"], 
+      "shows":[
+        ["23/9", "18:00", "20:30", "22:45"],
+        ["24/9", "19:00", "21:30", "23:45"]
+      ],
       "plot": "In the near future, convicts are offered the chance to volunteer as medical subjects to shorten their sentence. One such subject for a new drug capable of generating feelings of love begins questioning the reality of his emotions.",
       "rating": "5.4/10"},
 
@@ -25,8 +30,10 @@
       "genre":["Action", "Crime", "Thriller"], 
       "runtime":"1h 54m", 
       "image":"https://upload.wikimedia.org/wikipedia/en/7/77/Memory_official_logo.png", 
-      "playtimes":["17:00", "19:30", "21:45"], 
-      "dates":["2022-09-23", "2022-09-24"], 
+      "shows":[
+        ["23/9", "18:00", "20:30", "22:45"],
+        ["24/9", "19:00", "21:30", "23:45"]
+      ],
       "plot": "An assassin-for-hire finds that he's become a target after he refuses to complete a job for a dangerous criminal organization.",
       "rating": "5.6/10"},
 
@@ -35,8 +42,10 @@
       "genre":["Drama", "Mystery", "Thriller"], 
       "runtime":"1h 35m", 
       "image":"https://m.media-amazon.com/images/M/MV5BYTc4M2Q2Y2YtMjM0MS00ZTEyLWExYmMtMjEzNjlmNTNjMWYxXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_FMjpg_UX1000_.jpg", 
-      "playtimes":["17:00", "19:30", "21:45"], 
-      "dates":["2022-09-23", "2022-09-24"], 
+      "shows":[
+        ["23/9", "18:00", "20:30", "22:45"],
+        ["24/9", "19:00", "21:30", "23:45"]
+      ],
       "plot": "During a blizzard and stranded at an isolated highway rest stop in the mountains, a college student discovers a kidnapped child hidden in a car belonging to one of the people inside.",
       "rating": "6.1/10"},
 
@@ -44,8 +53,11 @@
       "title":"The Northman", 
       "genre":["Action", "Adventure", "Drama"], 
       "runtime":"2h 17m", 
-      "image":"https://m.media-amazon.com/images/M/MV5BMzVlMmY2NTctODgwOC00NDMzLWEzMWYtM2RiYmIyNTNhMTI0XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_.jpg", "playtimes":["17:00", "19:30", "21:45"], 
-      "dates":["2022-09-23", "2022-09-24"], 
+      "image":"https://m.media-amazon.com/images/M/MV5BMzVlMmY2NTctODgwOC00NDMzLWEzMWYtM2RiYmIyNTNhMTI0XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_.jpg",
+      "shows":[
+        ["23/9", "18:00", "20:30", "22:45"],
+        ["24/9", "19:00", "21:30", "23:45"]
+      ],
       "plot": "From visionary director Robert Eggers comes The Northman, an action-filled epic that follows a young Viking prince on his quest to avenge his father's murder.",
       "rating": "7.1/10"},
 
@@ -54,8 +66,10 @@
       "genre":["Action", "Adventure", "Drama"], 
       "runtime":"1h 39m", 
       "image":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXFhcaFxcXFRUYFRUXGBUWFxUYGBUYHSggGBolHRcYITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGi0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAREAuAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAAECBwj/xABEEAABAwMCAwUHAAcGAwkAAAABAAIRAwQhEjEFQVEGImFxkRMygaGxwfAHFFJi0eHxI0Jyc4KSM6LiFSQ0Q1NksrPC/8QAGgEAAwEBAQEAAAAAAAAAAAAAAgMEBQEABv/EADMRAAEEAAUBBgUDBAMAAAAAAAEAAgMRBBIhMUFRYXGRsdHwEyIyocFCgeEFFCPxFVKS/9oADAMBAAIRAxEAPwCnOCFeEYWqF7CkArbcFxSCNoU0OxiOoBC4o4m6rr2K1oRTTK37JLtVZOi5t2ptbU5CioWFTMU3kt97uOOnn3sYwOaZ8Mo6hhlRwA7xaJ0yTGI6CZKRJbtkRc1jb9+/zoo2UdlHdUim9ChsNLyYmGgEkkNOxA5F3wbPNaq0DzY8GYOMgaS52CMkCPWVMMwN6IfjD2Cqk9plDvpq0VeFO7sMqS6SJacjSDgAZ6zO0IWtwtoc6WVdDT3iGnu+9MktEY0HPU74JtYVx0jK58D3ee3VVypTUDmqwu4Z3dRZVgCHEteAKmtrdBPszBg/EwMIalw0P1aWVS5rRIa1ziHQ+QQ1hjvBogxu7OMsCS97aJo6dh9++1JdHJTMpJgy2pFxLdZYAZJEEO7wbJa06Wnu8jupKtpOn2bXnUSASPfMiGsAGSAWz4uHx84omDXUFLy3HgoymLLGo73ab3YnusccSWzgbSCJ6g9EKKa5aYW8IfTChDUTU3UdQIgUtwQVchA1QjK7UNUCaFFILUbWrFqm/Mfmfwra6ljZPqdNb9gpKCOoU5UznUtVsYIS+nbqT2RCdMt/Ba/VMJXxgmCMBKmNhE0hKIfZmJhdUKK454pEBSKt76pJyJJDpLWnSQ0sBbIwYJCMspA093SSDlrXQQCARqBzDneqgo2kwmtrZ7KaWc9UpzIwCK3r7beCMyRy93TGluRoDIMjPdxldexcWuE4dpnDRIa0NaMDA0gNxEjBmTJVtbSj2W4hTCSQ8n3p5KJxYOPe/mq7dawdWrOnQDAnTp0xt0x890qu2veHBziQXl5HIuMZPXYQNgrVc24PJKru2zARDEP2J9/6Toslg0L9nz170svbh5aJgnW6psPfc7U5wEdUAbx4c5wDAXOa7/htID2FzmvAIjUC4lH3DEN7GSqWYh3JT2xR1WUIK1e9msYOuNQc2ZgyDnnKKp31VrWN1CGFjmDSzuuYSQQYmZc4mTmUQ+2M53XDqM4XRiDwURjjPA9+67lCOI1nAtcdWpgpuLgDqYHOcAf2jL3STJM5lCu4dAnwTehbiVJVoIXYlxK40MaflACqVWjCHuGYKe39KClVy3qq433quvaCEofkShSERROHDo4j4Sh9WSPzkfoVUFnO4KXOqQ/w/Ctoev7xjqsR0oM5BKuVuYTSzeOaXUITO3tiYhRykVqvoY9k5sodsmf6gCIASvh9MtOQrPYPBGQsqXR2iVK4t1CVOsTsQhm2OmfFWZ7EFXpJechLbKUutWgeaYUDOyjp0IBUtqxC42vOIKY2xgI1owgrdvVGUmpsajeg6rSl1elJVjfRkJfVtoKGSMtRxyhVm7t0PQpGdlZ3WoJmOSgdaDohzEBUtm4S1tOQsNlkJw2x8R1XYowVzUIfjdEpFrChuwAE5rAAElV+/qbrzQbRRuLik16M7jPy80ruqeEbcGSl904wtSMVSsOgVdtHD2rhO8oS+7tX0+kFd1qmmrPQ8vmueN+8D1C0BusN5/xnsKX3fvFYtXBmD4LExRPPzFX2hSTqwoubBCj4Ra6jthWWjaCNljYiajS+le4NCgt3AhNLOkgH0MomjWLYUJU79Roj3CFy4SVNMhdNt16idlPfVcUqKlpWvMKW3po2mxNjitLfJSGp0ERSpojRhd02qtkIBU7pCQsFNQVqEotwXJCe6MEUlNcRqgvYYQ36tlM3BcimkugBTGy0gKlGBhQkI+q1C1KSmkjo6JzH2NUn4mSOXX4qt3c5VrvqXgklzaknCnaacr4XABVtw5wgq1MmT0BOeg/qn7rOJB8/gVoW4LXQBGnvAnf4nbqrGzAKouBC8uuaZmV1dgGm0nBGP4JtxK0DC7Vvu0DY889Bt5yklerMrXa4HZY0jMlg8oI7La5LltMUJK9f4TVggfD6KzMb1VT4ZdtbPcBPLAwR+Beg8Pp2zwDJH+ojlzB/MLAkizP3rvW7inZNSClfsiQVyKBVodwylu1zvqPpn1Q1bhbht3h1H3HJcfhJW61fdqpG4lh/lK7XeCmTRCDdTLSumOnKUw0uvFo9rgUTSCX00bQVkLrOqmkGiLDVtjF0wLsBXtHKltRkLRCmhR6hOmRPSRPoiyrlqOFhClLVyQgpdtQFiidTRRCjelvYEbXIGtboF9INnAyE0rJXdrOnaG7KyJxO6rHaGxAh7XaScOg7g5BjrOPiqdX4s1hcGlxHIknfniP4L0q7tC+2qEbtIOImRkSS0wJg4jZeQ9oab2u0n3SdyNzAJE+Ej1VOEaHAB3RW/GIjNcGvJJuIXrnOJc4knckzKWvepqxUDlrN0WPI4k6qMrFshYiSVfqNcTznzTnhl89vumBzE4OMYlVigdimFCqVnyssL6hhzbr0LhvaioxoY4agMSIkRt5+isHC+0LXRqd73ItggyAR5zPovMKN1GM5x6rgXxaYnYyM/NSgyg207d/qky4GN/FL2LiVuHDUOe/8UupUIUHZTjIrUw07xCZ16ZBXJGtf/kA7x2rL+aMmN3C4pUkXSag6ZRtFMgroly2imLsBctXTVoNUpXQaqV2RoF1WqPae0Yx27m96ZOxJlpxyKvICoHF7d9hce2pkmlUcSWSQDzLSR54SsQ2ix5GgOv29/bYlV4T5mvjB1I0/b+FdqdMgZcXZJkxzOBgcl0WpZwi9qVgHjSWHeZa5p5hogyBjfnKauCa0te3M3ZTOaWmjuooUbmqchcOQkLwKDrtwlV0wzhOagQV+wMYXHfpjE4J9DMKDERZhaphfRSLtDxJtvTfTkZYSdI7w1NPXb3YnO/KBPjXHL/2rse61uho6MaTE53hWvtZxGXO5wd5O3gD+YVAvnCTBT8IzTMR3ditmb8KMC9Tug65UJU1QyoSrwsp2pXMLF0FiK0Ks1K40mCp38RhJS8rPaJJYCtUYpwFBP7XikkSdvzZE3VYOGOn8/sqm2tBTGlflokfHySnxa2FRDjLBDlZezPFXh7dLSADkg6f+Z2F65Z8TbUDQYaTsTUpOkeOk+S+e7OuQSrdwbizmwp5oi05mc7jr5+IpeyNxDRZ+YL2f9X+CkY2Ep7NcV9tQBmXNMHr4fngm4KJhaRYWRI1zXFruEQxdtUbCpAq2pCkaoLu1ZVaWPaHNP15EdCpQVuU00RRXBYNhaY0AQBAXLl0SuCULivALRXDl0So3JRRKGo5JeMU3OpuIJMyImc/VOHoG8YdJA8/RZ84zBVQnKV4fx8nU6fFVesQVdO11PTVfHNxIPXrj85qmVd9lfAbYCq8b9SEK5IUzmLlzU9ZpC5a1YpWMW160QYVI8rbcrmoFqm5cTOVxUGV3SWVQoyYXkOxtG2z+8Ou356L0DsrQa4gezDwRknYdcrze3fDgfEfVe6cGtWNps9nhhaCPiJ+/yUOOflYB1WlhJsrHBc2VrUtahfTzTdyJ28+vmrpZ1Q9jXDmPTwQdlSBb5IygA0QMJGHDgczjofNR4mTPxqPeqMYu1Ax6lBWg0hRLoFblaBWFHa4tkrkrRK1KEldWiuCu1p4wgOy8oXNUb6U4Xepb1JJDSmWQvIO3VgWvLjBEx9l55d04K907YcKFSm6Bnr47heK3rDJ/NlzCO0LDwtOUiWMOS8BRuaiDTyuHNyrQoi1SWzVi7oCFi4U9g0UdduUPUwmd7SS6oEQKXK2ioHvXDXSunhZRauqbcqagF6r2V7RtbaMD5mmdOMnScgn1j4Lyyk6EdRuSNQGx+o2SJ4hK2ircO5rfq2XsfZjtT7W6FOIa5rgBzJA1SfQq4asrwTsXxPReUXOOA8Sek4+692O6ikZ8KmjZdxGRxDmirHl7CLY5ENchKYU2pOY6goXBEtWnFcNetOcn5tEultxXJK5c5clyAuRAKZjlt4UIcpmnC602KXiKUDmKJ71PUQFXdTSnLsmMFoW5dqOeoPXZeVdreHBld4gAauX7wnA6Z+S9PrbqqduLPVoqAbt0uPiySPVSQS1JZWph98vULza4to+CEqUlY7ihInr9RMpZVoLWa+12WCtkBSatokMhYjtKDKU19TkJG5mVZ61NJLylBXmOXsTHylrm5W2tXb25Vi4L2cNbvEwzrzPkuve1gtyljic801VqoIXHtCvSbvsVReyG6mu66ifUOMKo8c7L1bcgiajI94DIPi3PLmkx4mKQ0Dr2o5sO9uo1HZ6boPhdcMrMqEEgOBI6kGd17bYdtrWoAdTg7EtLSenMYXh3Dq2h0wD4EAg/A7r0ns9xDh7gw1aIY/npHdJ6w0/UJeLZdGj+ybh2teyjr3b+hXqdncsqCWkkdYIHzUzuSX8L4lRc1opGejWiI+wR1Z0JLXgs3HbSjewh9UR37qT2i0aiDL10x64JrNLpjRTloOWHZQzlG40gAtTFRuuowuKzsJdUflIlnLPpTWRg7ps2tIQlcqCncLT6qU+YOFI2x0UPcFKOO96lH7w9J/omtTKGuKMt0nYwCeg1AypQfmBVUZykFUp9uNLv3S4eUmft80nr0NyrLXoEED4O8xgH5JXxChpJndaEMmq0NCq7WpQsRlyxbV4dopXx0Vqpsk9+E4qvQNZoMg7xheYuzCxSVOt3FpeBhsSemYXo/ZWqH21Nw5AtPm3/AKSz1STs41tSg+mRtIPk6c+v1CK7Cy329A7tIeB5HQ6P9zT/AKVPiTnY4ct8kpjchDgdCPurnRGFBcUgQt0qh2XWpZJ0TdQUEeF0ngB9NrgNgWgj5rtnZe2dszQQZ7hj4RkI2lumFs2IKISPB0J8UL3HdEcHsKdAQwH4kn67I2rVkoZrcSuNRXTIaoqYjM7Md0WXLu3KFpvRLSjY7W0tw0pHE4Qb3QSpNaGrHKdLJY0S2N11XTqkoOqu9SGqvUb3XuqGtpadVjC0ayEq1Fyyol6p2VHtcsrEFpQ5qYUJrLq4GpTxB4Y/Mw5oMnrkfUfNKOJulyc9oWzSB6Oj1Bj6FVt1edM7q6BtgOVsW1oO6ZmFtEXDJKxXNfQRlqWVChHjOf6Kd6jqH1TmqZ+qK4BVNOtB912D5HE+MGD8E5tmeyvmHYVJY7w1gsn4EgquA5B9PuE6vavtKTKg94RPXU3H8D8UqRvzA9dPRcY22lqsrbj86IllWUvrEF7nDZ3eHk7vfdEUdllOaAmkCrTCiRv+c/5JjQKWUTt4o2nUhJKQ8I3XhQGsoXVlCXrhJKWGo2nXRDbpCutwWUdOkPqF8lzoGHhjGgdSXY/wnxUdCiCdHtIqaNYbpkRp1gF84cW52O4yqBh5RRA3AI/caDWtexLLozeu1/bnu7dk1p15Wqr0vpXAE9AYwCTzEwQIGN0RTrtcypvqa1rhON36T3Znpnx80Yw8pGo91aUXsvQrl9RCVai5qVUM6qo91W1i1Vco9cKOs9CPrJgZaeGo41yozVQRqrltXoj+GiyKTi1b3mGdgfiDI+U+qrUgO6hPeJgENnBOCd9o049Upuy0AeBP1VWHoCkxgoLj2qxDtfzWKnKmIAuUZKhbXyFNUZGVSoQcy3yj8yjOHv1Nc0mCRjxg/WJQtWkdAfGJgnxXLDzG/wBlwjMF0Etcrfw9002eAA9AmFJ31Sjhd33A1wg8jyMT80xY7p6rKlaQSn8J1YW9Spq0N1QJMRgfHf4I/wD7Grn/AMsj4t/iiOwfvVfJn1crJd3wpuptLSTUfpERjEyZO3kqIcFHJGHuJG/TrXRZWIxL2SljQPv0B6qh3lN9J2l7SCMwenWeYXNnaVaur2bC7TE5AiZjc+BVx7T24db1CWhzmMc5uSIIEzIHhtzSzsJvXnf+zx099CcEGzBhOhvv0+yNuKuBzwNRXdqUtZY3jcigCRTLAXHLQXPc4jRUaQ464kGYCX3N1XY0UngM/sw3FNgcaRGG64nRGIB8F6Bd34ZUpUy1xNUuAIiG6RPez9EB2utmOt3vcO8wS08wSQPTwVj8OWsOR507unYAdgEiPEgvHxGCjzr1PUkVe/iqpYWNatLmBzgDuCzBOcE55/M9SmDOFXDQQKbsiDJaREzAzjPRHdggDRef343Me6OW3PdMuOcdbbFocxzy4OI06caY31EdeSWyEGMSPkcP3FeFdy9K8iYxsYD+xvbvVRFtUNQ0g2XjdsidpPPoVzecNr02l76Za0RJJbAkgDY9SENW4yf1k12At74cAYJAgAyAcznmN+S9C4rQ9rb1GjOph0nfMS0+sJEODjkzAE6E1tqOOOVRNiHw5C4CiBe+h554tecULGtWDjSY54bvBGN43KF4jw+tRIFVhZqnSCWmYiYg8pHqr32DpRa6/wD1HucPIQwf/E+qp/bS/wDa3b892nFMebcvPnqJH+gI/wC3a2IP5PvyTo8Q92IdEAKF686fbfsSjJE9N/4rqg7O355KMeaka47fkqcq5E3NLWwgcu98B/U+qTXVLkd/v1TVtxkjwj/d/QpXfO7x816GwaXm3sl+nCxdvPJYrUarIJwU+NIFnzSCmZbCsfZ+Kg0OOSCB5xhNldQzdFFhasjqPLdPOx9lTuLe4oOjXGtp6QDJ/Oqp9u+HQfEK5dg6RZeOpuOnU19Mx1InPoqn2gtTSuKjYiHSPI5QR18Rw66+/EIZra6+70/Cd8Jc19PSRkT085Hr8kwtiWHS/bk7l/X6/VL2deHFzTg4IjcEbx9fgrCMyxwBdyxAd5ePh+CWbRxHvvCoabaCrn2CI11o/ZZy8XJ9xii51S3LWk6a0uj+63Q7J8Jj1VW7AE0zXzIApxO+S4fHlCsnH+OttmgkOJNQNhobsAHv94ge7jzI81dhwBALOmvmViYsO/uSG6nTyCJ7Rf8AhLj/ACKv/wBblXv0eOn25knNPfP7ar3He0NW4GluplLvgie9Ua5+oNfBw0ANEA5yCYMJx+jqppbXP79Ef7nOb90Jka+duXi/JNED4sI/PzXmFaL7h7qlajUDgG0i4lsGXamxgzHySrtvxelSoupEzUqN7rBuBq9937LcHzgxMGGPFOIvp1ram0NLar3teTJIDWEjTBwZ6zsl/ba2pPoVXOb/AGlJgc1wwRqcRE8x3chUP2dl3/j0UkVZ2Z9uyup/O/YoP0cvmjV/zP8A8NTXjnA2XJa5z3N0BwxGxg5nySL9GtQCi+f71aB5ilq+gKJ7b8QrUnUhSqFgc18gBhkgsidTT1PqkjI3DjOLH8+qoma84whho3+PRUa7aA5wBkBxAM7gEwceC9G7E3/tbVoJ71M6D5D3P+Uj0Xmtd5ySZJMk4ySZO2ArF+j67LDcnkKWsjlLJ5/FTYV1SabFX46PNh7O4o+vmrxXey1t3OA7tJjiBzMAmPMn6rxxziTJMk5cepOSfiSSvS/0gVP+6loODUYHAeHfA8MtaV5u1iZi3UQ1K/pbPlc/kmvDX8rljURS2URKlLhECfj81E42tNcl+THT8/PFLLs580c1pkoW8GfzojZoUykvfKxSVRhbVIK9SqdGphNuCVtLwfEH4gpFQcmNm7KocARSysM82F6PY1RT4gyoR3X6Xf7o+6C/Sdw/TWFUCA7H3H54Kawq+0t2VAO+w6SfL+Ssfam3FxZB8S5rfm3P8VmRvyOF8aHy8q8FTiKJaeoLfyPFeT8LujTeD6/dXrUC3wIE9T+yfzqqJeW5bB5ESrN2YuDUaWE7DHWNv5eipxTAQHjhDES22FXjso9wp3DjEAU4dGT3zv5dfFT9tJcw/u3MCRI/4DMHw8kit6ZaC3U4NMSGucNUbB0HPxXVxqcMuc7M9573d4iNR1HLoxPTCS3FNEXw66+ZSXYcmf4t9PIehQNIA4dh3IE4dvsdt+RhPezTXU6VXcE3FnuMwbprTjyKU6dxGDuNwsIe0aQ5wBgxrcBLSHNOCMggEdEqKXI+0+ZhkYW932Nq4XJJr2fhc3fydUA+Sh4zcGpRuCZzZ2zvi6pccvgqVUdVkH2tWQXEH2lSWl2XEHVgmcndRirUGDUqEENaR7R8FrZ0tInLRJgHGT1V/wDdtPCk/wCPdpThp3/9r6K2diDpp0/G7I9bWorFeWVG4Y2pWJ7vtAIMYDiTt4M+S82t6jxGl72wZGl7mjVGnUACMxInfKI9rUiPa1YHL2tSM741c5M9ZPUpbcUwMyPF+HqjnwcjpTIx1eKztRaNpXFSmydLS2Jyc02OOfMlT9kqkU70/wDtn/OR90vuZdLnOc4nJLiXE7DJM8gPRD0tQBgubOCA5wDvB0bjwKUyVodmA0VZic+H4ZNmhr3Efvwr12udqpVh+zdMHmP1Vh+pVLFJSsqPd71So6XSdVR7gXQGyQTBMCJPIAKcU4QYmYPfY96lLw0RhZlJ5/A9EBVpwomhMKtLCW1HHZLabVbdVMQlt26JRzqhhKLsklNhGqYBQUb6mFihc6FpV0hzKrUgmVsNkC1iJop7tVjwfKVb+zN3pcabvdcAvR+EUdVuWnrt0GxXkvDapDmlen9n7zAz7w+v81lYpoDwTsdD5K7ENJise6/hUfi3Du7UZzpPMf4HZb9D6pNwe4NOoHeOfJejcU4fNcOA95pB6df4+qp3EeFeyr7d0nH54J0E4cCx3T/a99RDgrrbtDmgjnlTtptjO+YEGT3e7BGBnmcKDgjixoEAkHAO2DiU2N26fdGdzJ66sYw7VmZMeO6jiaw2XO+xKmmc4Gmj70g3UacmMCTHdqREtiWjMwXczsDj3VnsaRbs6Rp5HPdbrHgZDh0yM7SXrcQ796J7zjtG53eccyBJmOShOoHGMb+sR0zz8E1zmX+n/wAn15Shnrc+P8IGvb09QOYgkjS6QZdA6fsjB68soYW9KW6jjIdAfzY2CMEQHF3PkmtWSTiJBG5xMxAjlg/AKF1Nwgtx/J0jHI+PRCJGg8V3Hs7efXqmBzq3PTcdvl6dEtZSbrlk6R7PeZ2bq3/elY1g70j9szygEncb9PgmTLckuIAEwRvA2j6Kd3C3OpBsie+CcxDyT915r2OsHr26DXZZX9QZi/jibDkgiOv0HMc4OU5uKs2A3XZ3BSPtu9p8s+cfxUdOj3an+W/x/uyPqnd3w5+ouYQJjBbnG+TKGNg4N0yCTqE5GHdB4LoexvPnpob+6XOcfiGvic222dbZ83+ZjmVRsVGCDdWeriLBpW0O07zpP+4A/KUfbUdTZ0xJI9DC3UtXapa5okDffEQPkjLZns2BpMnJnbJJO3IZSpCwtsHXTr018TqrMPNjnTVMPlAfr8nzEvthFWQBHYNgWdwTql9zbYOEgumhp36q31HAhVPi0SfkhhOtLZw7iTSDxpM/nwSq4cpq9ygqtRaMTCN1adAhqjliiquW1SAoy5LaLJOBK7dSc05BHnhc2lQBwJ5H8CnuKzXGRpG2IJ2AHRESbUbQMt8qe1eVeuzd913G31VCpuHUfBpCe8GuSHBS4mPOxXwjO0sK9Gr1NQnoQ4IXjXDxUp43iQoLW4loTCnVlkfBZFlpvopqLCK6qDhDdVIftDHomdCkllodBd4mR8U1tK8mExrhmS5rskKcU11+rhc1Kq22tJR5m2p6KjfQXIpclM+qMLdMSVw0SvAkBRto5RtJoUNQLdKrhGwBpQOtwUlVgQdRgU1asl9e4jCCVwtHG0qCrWgpfWvCSQu7mrvCUXFXvJTW2r440Y66I5pDxiuCVNdV0nvakqyCIZrVsbK+ZCV3oV71K+Dzj4FDvj9oeh/gtEJEjrKhqvWKCu7fM+OfusTAonP1Q4W1ixdSFPRTzhPvDzCxYlS/SVoYT6grvZ7D85o21/v/AOL7BYsWG7lekW6nvfBG2PvLaxByEp/0om4XTOSxYu8qfhcv5eY+yLt+SxYmR/UhfspK33Q1Hb0WLEcn1IGfSuau3wSu4WliS7dUxIK6/PklFz7354rFiZGroUvu+XxSmutrFowqv9KBqIV62sVQWfIg6yxYsRLPduv/2Q==", 
-      "playtimes":["17:00", "19:30", "21:45"], 
-      "dates":["2022-09-23", "2022-09-24"], 
+      "shows":[
+        ["23/9", "18:00", "20:30", "22:45"],
+        ["24/9", "19:00", "21:30", "23:45"]
+      ],
       "plot": "The origin story of the Predator in the world of the Comanche Nation 300 years ago. Naru, a skilled warrior, fights to protect her tribe against one of the first highly-evolved Predators to land on Earth.",
       "rating": "7.2/10"}
   ]

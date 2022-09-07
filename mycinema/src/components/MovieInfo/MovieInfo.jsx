@@ -1,10 +1,13 @@
 import './MovieInfo.css';
 import { AiFillStar } from 'react-icons/ai';
+import { useState } from 'react';
 
 const MovieInfo = (props) => {
 
+    const [choosenDate, setChoosenDate] = useState(null);
+
     return ( 
-        <div onClick={props.selectedMovie.onClick}>
+        <div className='container'>
 
             <div className='movieHeader'>
                 <div>
@@ -15,7 +18,7 @@ const MovieInfo = (props) => {
                     <h2 className='title'>{props.selectedMovie.title}</h2>
                     <h3 className='runtime'>{props.selectedMovie.runtime}</h3>
                     
-                    {props.selectedMovie.genre.map(genre => <h4 className='genre'>{genre}</h4>)}
+                    {props.selectedMovie.genre.map(genre => <h4 className='genre' key={genre}>{genre}</h4>)}
 
                     <h5 className='rating'><AiFillStar color='orange'/>{props.selectedMovie.rating}</h5>
                 </div>
@@ -23,23 +26,28 @@ const MovieInfo = (props) => {
 
             <p className='plot'>{props.selectedMovie.plot}</p>
 
-            <h3>Choose a date</h3>
+            <form>
+                <h3>Choose a date</h3>
 
-            <div className='dates'>
-                {props.selectedMovie.dates.map(dates => <h4 className='pill'>{dates}</h4>)}
-            </div>
+                <div className='formDateBox'>
+                    {props.selectedMovie.shows.map((date, i) => {
+                        return (
+                            <p className='pill' onClick={() => setChoosenDate(date.date)} key={i}>{date.date}</p>
+                        )
+                    })} 
+                </div>
 
+                <h3>Choose a time</h3>
 
-            <h3>Choose a time</h3>
+                <div className='formTimeBox'>
+                        {choosenDate !==null ? props.selectedMovie.shows.filter(date => date.date === choosenDate)[0].name.times.map((time, i) => <p className='pill' key={i}>{time.time}</p>)
+                         : <p>Select a date first</p>} 
+                </div>
 
-            <div className='times'>
-                {props.selectedMovie.playtimes.map(playtimes => <h4 className='pill'>{playtimes}</h4>)}
-            </div>
+            </form>
             
-
-            <button className='bookButton'>Book Seats</button>
         </div>
      )
 }
- 
+
 export default MovieInfo;
