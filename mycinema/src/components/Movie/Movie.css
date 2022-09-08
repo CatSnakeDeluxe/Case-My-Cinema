@@ -22,7 +22,7 @@
     z-index: -1;
 }
 
-img {
+.movie img {
   width: 140px;
   object-fit: contain;
   border-radius: 1rem 1rem 0 0;

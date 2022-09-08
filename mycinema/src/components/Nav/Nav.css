@@ -1,9 +1,8 @@
 nav {
     background-color: rgb(113, 71, 172);
-    padding: 1rem;
+    padding: 0 1rem;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 nav a {
@@ -13,35 +12,3 @@ nav a {
     font-weight: 600;
     margin: 1rem;
 }
-
-.projector {
-    font-size: 2rem;
-    color: rgb(74, 46, 112);
-    z-index: 10;
-}
-
-.triangle {
-    width: 0px;
-    height: 0px;
-    border-style: solid;
-    border-width: 30px 120px 30px 0;
-    border-color: transparent #ffffff28 transparent transparent;
-    transform: rotate(0deg);
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.064), rgba(255, 255, 255, 0));
-    position: absolute;
-    left: 45px;
-    top: 14.5px;
-    pointer-events: none;
- }
-
- .triangle::after {
-    content: "";
-    display: block;
-    width: 100px;
-    height: 80px;
-    background-image: linear-gradient(to left, rgb(113, 71, 172), rgba(113, 71, 172, 0.37), rgba(113, 71, 172, 0));
-    position: absolute;
-    top: -40px;
-    left: 20px;
-    pointer-events: none;
- }
