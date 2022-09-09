@@ -101,6 +101,14 @@
     margin: 0 0.5rem;
 }
 
+.selectedPill {
+    background-color: rgb(113, 71, 172);
+    /* border: 2px solid rgb(213, 186, 250); */
+    border-radius: 1rem;
+    padding: 0.4rem 1.2rem;
+    margin: 0 0.5rem;
+}
+
 .bookButton {
     padding: 0.5rem 1.2rem;
     border-radius: 2rem;
@@ -172,4 +180,13 @@ input[type=radio] {
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem 0.5rem  2rem  2rem;
+}
+
+.takenSeat {
+    background-color: rgb(156, 68, 68);
+    pointer-events: none;
+}
+
+.selectedSeat {
+    background-color: rgb(68, 100, 156);
 }

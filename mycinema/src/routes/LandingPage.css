@@ -1,3 +1,21 @@
 img {
     width: 200px;
 }
+
+.projector-container {
+    width: 390px;
+    position:fixed;
+    bottom:0px;
+}
+
+.landingPageP {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.AboutPageP {
+    font-size: 1.1rem;
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+}
