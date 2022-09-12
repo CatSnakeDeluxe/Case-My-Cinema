@@ -54,7 +54,7 @@
     color: rgba(255, 255, 255, 0.6);
     width: 80%;
     margin: auto;
-    text-align: left;
+    text-align: justify;
     margin-bottom: 1.5rem;
 }
 
@@ -70,29 +70,6 @@
     margin-top: 1rem;
 }
 
-.dates  {
-    margin: auto;
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    color: rgb(213, 186, 250);
-    font-weight: 400;
-    font-size: 1.6rem;
-}
-
-.times {
-    margin: auto;
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    color: rgb(213, 186, 250);
-    font-weight: 400;
-    font-size: 1.6rem;
-}
 
 .pill {
     background-color: rgba(0, 0, 0, 0.502);
@@ -107,16 +84,6 @@
     border-radius: 1rem;
     padding: 0.4rem 1.2rem;
     margin: 0 0.5rem;
-}
-
-.bookButton {
-    padding: 0.5rem 1.2rem;
-    border-radius: 2rem;
-    border: none;
-    font-size: 1.2rem;
-    font-weight: 600;
-    background-color: rgb(113, 71, 172);
-    color: rgba(213, 186, 250, 0.7);
 }
 
 h3 {
@@ -134,7 +101,6 @@ form h3 {
 }
 
 .submitButton {
-    background-color: aquamarine;
     border: none;
     background-color: rgb(113, 71, 172);
     padding: 0.8rem;
@@ -144,23 +110,11 @@ form h3 {
     margin-top: 1.5rem;
 }
 
-input[type=radio] {
-    accent-color: rgb(113, 71, 172);
-    margin-right: 0.2rem;
-    margin-left: 1rem;
-    width: 40px;
-}
-
-.formDateBox {
+.formDateBox, .formTimeBox {
     display: flex;
     justify-content: center;
     margin: auto;
-}
-
-.formTimeBox {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    margin-bottom: 2rem;
 }
 
 .bookTicketsHeading {
@@ -169,12 +123,16 @@ input[type=radio] {
 }
 
 .formSeatsBox {
+    width: 80%;
+    margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .seat {
     background-color: rgb(62, 62, 62);
+    color: rgb(62, 62, 62);
     width: 40px;
     height: 30px;
     margin: 0.5rem;
@@ -184,9 +142,20 @@ input[type=radio] {
 
 .takenSeat {
     background-color: rgb(156, 68, 68);
+    color: rgb(156, 68, 68);
     pointer-events: none;
 }
 
 .selectedSeat {
     background-color: rgb(68, 100, 156);
+    color: rgb(68, 100, 156);
+}
+
+.movieScreen {
+    width: 60%;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 2rem  2rem 0.5rem 0.5rem;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.806), rgba(255, 255, 255, 0.29), rgba(255, 255, 255, 0));
 }

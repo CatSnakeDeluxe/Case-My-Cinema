@@ -13,7 +13,7 @@ const MovieShowcase = (props) => {
 
     return ( 
         <div>
-          <h1>Movies in theatre</h1>
+          <h1>Movies In Theatre</h1>
           <div>
             {props.movieList ? props.movieList.map(movie => <Movie onClick={() => handleClick(movie)} title={movie.title} genre={movie.genre} image={movie.image} key={movie.id}/>) : "Loading"}
           </div>
