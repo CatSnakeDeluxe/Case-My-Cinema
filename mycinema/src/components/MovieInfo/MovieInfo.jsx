@@ -48,6 +48,7 @@ const MovieInfo = (props) => {
     };
 
     return ( 
+
         <div className='container'>
 
             <div className='movieHeader'>
@@ -70,7 +71,7 @@ const MovieInfo = (props) => {
             <h2 className='bookTicketsHeading'>Book Tickets Below</h2>
 
             <form>
-                
+
                 <h3>Choose a date</h3>
 
                 <div className='formDateBox'>
@@ -104,7 +105,6 @@ const MovieInfo = (props) => {
             
         </div>
      )
-
 }
 
 export default MovieInfo;
